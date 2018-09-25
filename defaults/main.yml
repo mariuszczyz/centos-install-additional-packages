@@ -1,0 +1,9 @@
+---
+# defaults file for mariuszczyz.centos-install-additional-packages
+
+# add all optional packages to install
+# one package per line
+
+ADDITIONAL_PACKAGES:
+  - {name: htop}
+  - {name: vim}

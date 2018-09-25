@@ -1,0 +1,9 @@
+---
+# tasks file for mariuszczyz.centos-install-additional-packages
+
+- name: Install additional optional packages
+  yum:
+    name: {{ item }}
+    state: present
+  with_items: 
+    - "{{ ADDITIONAL_PACKAGES }}"
