@@ -5,5 +5,5 @@
 # one package per line
 
 ADDITIONAL_PACKAGES:
-  - {name: htop}
-  - {name: vim}
+  - "htop"
+  - "vim"

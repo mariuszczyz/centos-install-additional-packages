@@ -8,7 +8,7 @@
 
 - name: Install additional optional packages
   yum:
-    name: {{ item }}
+    name: "{{ item }}"
     state: present
-  with_items: 
+  loop:
     - "{{ ADDITIONAL_PACKAGES }}"
