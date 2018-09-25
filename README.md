@@ -8,8 +8,6 @@ None.
 
 ## Role Variables
 
-`ADDITIONAL_PACKAGES` - list of all optional packages to install
-
 ## Dependencies
 
 Optional roles depending on the repository source of the packages:

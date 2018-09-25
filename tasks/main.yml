@@ -1,6 +1,11 @@
 ---
 # tasks file for mariuszczyz.centos-install-additional-packages
 
+- name: Clean YUM metadata
+  command: yum clean metadata
+  args:
+    warn: no
+
 - name: Install additional optional packages
   yum:
     name: {{ item }}
